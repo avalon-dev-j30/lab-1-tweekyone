@@ -31,15 +31,15 @@ insert into "Product" (id, code, title, supplier, initial_price, retail_value)
                    (7, '15232', 'Вишневый сок', 3, 63.47, 98.00),
                    (8, '17464', 'Сыр', 3, 157.45, 231.40);
 
+insert into "Order" (id, created, users)
+            values (1, CURRENT_TIMESTAMP, 1),
+                   (2, CURRENT_TIMESTAMP, 1),
+                   (3, CURRENT_TIMESTAMP, 3);
+
 insert into "Order2Product" ("order", product)
             values (1, 4),
                    (1, 3),
                    (1, 7),
                    (2, 1),
                    (3, 8),
-                   (3, 3);
-
-insert into "Order" (id, users)
-            values (1, 1),
-                   (2, 1),
                    (3, 3);

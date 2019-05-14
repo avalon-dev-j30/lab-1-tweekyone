@@ -5,13 +5,15 @@
  * 3. Добавьте в каждую таблицу минимум три записи.
  */
 
--- drop table "Order2Product";
--- drop table "Product";
--- drop table "Supplier";
--- drop table "Order";
--- drop table "Users";
--- drop table "Roles";
--- drop table "UserInfo";
+/*
+ drop table "Order2Product";
+ drop table "Product";
+ drop table "Supplier";
+ drop table "Order";
+ drop table "Users";
+ drop table "Roles";
+ drop table "UserInfo";
+*/
 
 CREATE TABLE "UserInfo"
 (   --как установить ограничение у INT, генерация верно?
